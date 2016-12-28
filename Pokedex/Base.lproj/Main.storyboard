@@ -105,6 +105,9 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="6Vc-mI-dOi" secondAttribute="bottom" constant="20" id="yPq-FI-8LL"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="collection" destination="6Vc-mI-dOi" id="03b-iV-Pon"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
