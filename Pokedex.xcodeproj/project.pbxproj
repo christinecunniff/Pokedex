@@ -57,6 +57,14 @@
 			name = View;
 			sourceTree = "<group>";
 		};
+		F40704911E1428F000D8A23A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F4B24D071E141859004C725E /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		F4B24CF91E141858004C725E = {
 			isa = PBXGroup;
 			children = (
@@ -76,10 +84,10 @@
 		F4B24D041E141859004C725E /* Pokedex */ = {
 			isa = PBXGroup;
 			children = (
-				F407048E1E1423B300D8A23A /* View */,
 				F407048B1E141CA400D8A23A /* Model */,
+				F407048E1E1423B300D8A23A /* View */,
+				F40704911E1428F000D8A23A /* Controller */,
 				F4B24D051E141859004C725E /* AppDelegate.swift */,
-				F4B24D071E141859004C725E /* ViewController.swift */,
 				F4B24D091E141859004C725E /* Main.storyboard */,
 				F4B24D0C1E141859004C725E /* Assets.xcassets */,
 				F40704891E141BCF00D8A23A /* pokemon.csv */,
