@@ -242,7 +242,7 @@
                                         <rect key="frame" x="0.0" y="180" width="288" height="100.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="F0h-4x-QpA">
-                                                <rect key="frame" x="0.0" y="0.0" width="288" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="271" height="20.5"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="3kd-Xz-Gy9">
                                                         <rect key="frame" x="0.0" y="0.0" width="155.5" height="20.5"/>
@@ -262,7 +262,7 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="fjA-KZ-kDk">
-                                                        <rect key="frame" x="187.5" y="0.0" width="100.5" height="20.5"/>
+                                                        <rect key="frame" x="170.5" y="0.0" width="100.5" height="20.5"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Defense:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HwI-lj-DwZ">
                                                                 <rect key="frame" x="0.0" y="0.0" width="71.5" height="20.5"/>
@@ -371,8 +371,6 @@
                                             </stackView>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="trailingMargin" secondItem="F0h-4x-QpA" secondAttribute="trailing" id="4n6-0U-Q89"/>
-                                            <constraint firstItem="F0h-4x-QpA" firstAttribute="leading" secondItem="WdZ-V4-Cg8" secondAttribute="leadingMargin" id="LJy-ZQ-gaH"/>
                                             <constraint firstAttribute="trailing" secondItem="IBQ-do-2dk" secondAttribute="trailing" id="gGN-aO-nno"/>
                                             <constraint firstItem="IBQ-do-2dk" firstAttribute="leading" secondItem="WdZ-V4-Cg8" secondAttribute="leading" id="ujL-8Z-Uto"/>
                                         </constraints>
