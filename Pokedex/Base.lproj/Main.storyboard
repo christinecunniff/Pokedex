@@ -196,7 +196,7 @@
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="PpW-iF-Two">
-                                <rect key="frame" x="16" y="73" width="288" height="280.5"/>
+                                <rect key="frame" x="16" y="85" width="288" height="280.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="u3P-fp-2Rm">
                                         <rect key="frame" x="0.0" y="0.0" width="288" height="160"/>
@@ -241,8 +241,8 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="WdZ-V4-Cg8">
                                         <rect key="frame" x="0.0" y="180" width="288" height="100.5"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="F0h-4x-QpA">
-                                                <rect key="frame" x="0.0" y="0.0" width="261.5" height="20.5"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="F0h-4x-QpA">
+                                                <rect key="frame" x="0.0" y="0.0" width="266.5" height="20.5"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="3kd-Xz-Gy9">
                                                         <rect key="frame" x="0.0" y="0.0" width="155.5" height="20.5"/>
@@ -262,7 +262,7 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="fjA-KZ-kDk">
-                                                        <rect key="frame" x="170.5" y="0.0" width="91" height="20.5"/>
+                                                        <rect key="frame" x="175.5" y="0.0" width="91" height="20.5"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Defense:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HwI-lj-DwZ">
                                                                 <rect key="frame" x="0.0" y="0.0" width="71.5" height="20.5"/>
@@ -312,7 +312,7 @@
                                                                         <color key="textColor" red="1" green="0.34509803919999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EUD-ao-n6U">
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EUD-ao-n6U">
                                                                         <rect key="frame" x="103" y="0.0" width="9.5" height="20"/>
                                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -417,7 +417,7 @@
                             <constraint firstItem="Kbp-sB-PCs" firstAttribute="top" secondItem="KsO-U0-F0g" secondAttribute="top" id="WYI-JH-hvs"/>
                             <constraint firstItem="l0Y-2s-l5j" firstAttribute="top" secondItem="Ga2-pX-Gou" secondAttribute="bottom" constant="8" id="aOn-vq-5NU"/>
                             <constraint firstItem="Ga2-pX-Gou" firstAttribute="centerX" secondItem="KsO-U0-F0g" secondAttribute="centerX" id="bDG-eI-dKx"/>
-                            <constraint firstItem="PpW-iF-Two" firstAttribute="top" secondItem="Kbp-sB-PCs" secondAttribute="bottom" constant="8" id="c9g-NN-rj4"/>
+                            <constraint firstItem="PpW-iF-Two" firstAttribute="top" secondItem="Kbp-sB-PCs" secondAttribute="bottom" constant="20" id="c9g-NN-rj4"/>
                             <constraint firstItem="PpW-iF-Two" firstAttribute="leading" secondItem="KsO-U0-F0g" secondAttribute="leadingMargin" id="cHz-5Z-Qx5"/>
                             <constraint firstItem="Q8O-z6-jp6" firstAttribute="leading" secondItem="KsO-U0-F0g" secondAttribute="leading" id="dPO-Am-xCL"/>
                         </constraints>
