@@ -102,6 +102,7 @@ class Pokemon {
                 print(self._attack)
                 print(self._defense)
             }
+            completed()
         }
     }
 }

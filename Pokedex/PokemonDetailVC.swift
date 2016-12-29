@@ -20,7 +20,7 @@ class PokemonDetailVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        nameLbl.text = pokemon.name
+        nameLbl.text = pokemon.name.capitalized
         pokemon.downloadPokemonDetail() {
             // whatever we write will only be called after the network call s complete!
             self.updateUI()
@@ -28,7 +28,10 @@ class PokemonDetailVC: UIViewController {
     }
     
     func updateUI() {
-        
+        attackLbl.text = pokemon.attack
+        defenseLbl.text = pokemon.defense
+        heightLbl.text = pokemon.height
+        weightLbl.text = pokemon.weight
     }
 
     @IBAction func backBtnPressed(_ sender: UIButton) {
