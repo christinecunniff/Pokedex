@@ -20,6 +20,7 @@
 		F4B24D0B1E141859004C725E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B24D091E141859004C725E /* Main.storyboard */; };
 		F4B24D0D1E141859004C725E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4B24D0C1E141859004C725E /* Assets.xcassets */; };
 		F4B24D101E141859004C725E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B24D0E1E141859004C725E /* LaunchScreen.storyboard */; };
+		F4F072EC1E1580FD00A8E269 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F072EB1E1580FD00A8E269 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		F4B24D0C1E141859004C725E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4B24D0F1E141859004C725E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4B24D111E141859004C725E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4F072EB1E1580FD00A8E269 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FD2382A3A22DC17C2728794F /* Pods-Pokedex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokedex.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pokedex/Pods-Pokedex.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				F40704921E142D9A00D8A23A /* csv.swift */,
+				F4F072EB1E1580FD00A8E269 /* Constants.swift */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				F4B24D081E141859004C725E /* ViewController.swift in Sources */,
 				F4B24D061E141859004C725E /* AppDelegate.swift in Sources */,
 				F407049D1E146CEC00D8A23A /* PokemonDetailVC.swift in Sources */,
+				F4F072EC1E1580FD00A8E269 /* Constants.swift in Sources */,
 				F407048D1E141CB600D8A23A /* Pokemon.swift in Sources */,
 				F40704931E142D9A00D8A23A /* csv.swift in Sources */,
 			);
