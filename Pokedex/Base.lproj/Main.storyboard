@@ -212,18 +212,18 @@
                                                 </segments>
                                                 <color key="tintColor" red="1" green="0.34509803919999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                             </segmentedControl>
-                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kO5-MQ-bZY">
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="kO5-MQ-bZY">
                                                 <rect key="frame" x="0.0" y="40" width="288" height="120"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="CeW-zp-uQR">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CeW-zp-uQR">
                                                         <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="120" id="8xo-IY-aqV"/>
                                                             <constraint firstAttribute="width" constant="120" id="OMb-1e-HKQ"/>
                                                         </constraints>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The bulb on its back grows as it absorbs nutrients. The bulb gives off a pleasant aroma when it blooms." lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="z6I-7w-urD">
-                                                        <rect key="frame" x="120" y="0.0" width="168" height="120"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  " lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="z6I-7w-urD">
+                                                        <rect key="frame" x="130" y="0.0" width="158" height="120"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -379,21 +379,24 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Ga2-pX-Gou">
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Ga2-pX-Gou">
                                 <rect key="frame" x="25" y="440" width="270" height="120"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="EGH-iS-H3S">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EGH-iS-H3S">
                                         <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="49y-PX-pwB">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="49y-PX-pwB">
                                         <rect key="frame" x="150" y="0.0" width="120" height="120"/>
                                     </imageView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="CdM-nE-QXJ"/>
+                                </constraints>
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q8O-z6-jp6">
                                 <rect key="frame" x="0.0" y="391" width="320" height="30"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Next Evolution: Venusaur LVL 32" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JJ9-DZ-Clf">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Next Evolution:  " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JJ9-DZ-Clf">
                                         <rect key="frame" x="0.0" y="5" width="320" height="20"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -416,9 +419,9 @@
                             <constraint firstAttribute="trailingMargin" secondItem="PpW-iF-Two" secondAttribute="trailing" id="Bld-AE-aH8"/>
                             <constraint firstAttribute="trailing" secondItem="Kbp-sB-PCs" secondAttribute="trailing" id="CB1-vd-B2a"/>
                             <constraint firstItem="Ga2-pX-Gou" firstAttribute="top" secondItem="Q8O-z6-jp6" secondAttribute="bottom" constant="19" id="IOT-dg-5f7"/>
+                            <constraint firstItem="Ga2-pX-Gou" firstAttribute="centerX" secondItem="KsO-U0-F0g" secondAttribute="centerX" id="Shw-KM-hIl"/>
                             <constraint firstItem="Kbp-sB-PCs" firstAttribute="top" secondItem="KsO-U0-F0g" secondAttribute="top" id="WYI-JH-hvs"/>
                             <constraint firstItem="l0Y-2s-l5j" firstAttribute="top" secondItem="Ga2-pX-Gou" secondAttribute="bottom" constant="8" id="aOn-vq-5NU"/>
-                            <constraint firstItem="Ga2-pX-Gou" firstAttribute="centerX" secondItem="KsO-U0-F0g" secondAttribute="centerX" id="bDG-eI-dKx"/>
                             <constraint firstItem="PpW-iF-Two" firstAttribute="top" secondItem="Kbp-sB-PCs" secondAttribute="bottom" constant="20" id="c9g-NN-rj4"/>
                             <constraint firstItem="PpW-iF-Two" firstAttribute="leading" secondItem="KsO-U0-F0g" secondAttribute="leadingMargin" id="cHz-5Z-Qx5"/>
                             <constraint firstItem="Q8O-z6-jp6" firstAttribute="leading" secondItem="KsO-U0-F0g" secondAttribute="leading" id="dPO-Am-xCL"/>
@@ -445,8 +448,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="2" width="120" height="120"/>
-        <image name="3" width="120" height="120"/>
         <image name="4" width="120" height="120"/>
         <image name="back" width="100" height="67"/>
         <image name="bg" width="1920" height="1200"/>
